@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Drip Calculator",
+  "short_name": "Drip Calculator",
+  "version": "com.hunter.drip",
+  "description": "Hunter Drip Calculator app",
+  "author": "Hunter",
+  "icons": [],
+  "start_url": "index.html"
+}
