@@ -35,13 +35,16 @@ input {
   height: 34px;
   border: 1px solid #EEE; }
 
-.phone-code-selection .item-title-row, .language-selection .item-title-row {
+.phone-code-selection .item-title-row,
+.language-selection .item-title-row {
   background-position-y: 10px !important; }
-  .phone-code-selection .item-title-row .item-title span, .language-selection .item-title-row .item-title span {
+  .phone-code-selection .item-title-row .item-title span,
+  .language-selection .item-title-row .item-title span {
     display: block;
     font-size: 12px;
     color: #999; }
-  .phone-code-selection .item-title-row .item-after, .language-selection .item-title-row .item-after {
+  .phone-code-selection .item-title-row .item-after,
+  .language-selection .item-title-row .item-after {
     position: relative;
     top: 11px; }
 
@@ -77,7 +80,8 @@ input {
   text-align: center;
   color: #FFF;
   position: relative; }
-  .phone-info i, .phone-info span {
+  .phone-info i,
+  .phone-info span {
     display: inline-block;
     vertical-align: middle;
     font-size: 16px; }
@@ -115,14 +119,56 @@ input {
   width: 46px; }
 
 /* Custom styles -------------------- */
+.ios .block.subtitle {
+  font-size: 15px;
+  line-height: 1.2; }
 .ios .page {
-  background: #fff; }
-
+  background: #FFFFFF; }
+.ios .navbar {
+  background-color: #00658A;
+  color: #FFFFFF; }
+  .ios .navbar:after {
+    display: none; }
+  .ios .navbar a {
+    color: #FFFFFF; }
 .ios .subnavbar {
   height: 45px;
   margin-top: -1px;
   padding-top: 1px;
   background: #fff; }
+
+.ios .popup .card {
+  margin: 0; }
+.ios .popup .block-title {
+  background: none;
+  color: #000;
+  padding: 2px;
+  font-size: 2em;
+  margin-bottom: 10px;
+  line-height: auto; }
+.ios .popup .data-table .card-header {
+  background-color: #00658a;
+  color: #fff;
+  height: auto; }
+.ios .popup a.link.popup-close {
+  font-size: 2em;
+  color: #666; }
+
+.button .fa {
+  margin-right: 6px; }
+
+.sub-logo {
+  margin: 0 auto;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0; }
+  .sub-logo svg {
+    height: 32px;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 5px; }
 
 .centered {
   text-align: center; }
@@ -145,7 +191,7 @@ input {
   text-align: left; }
 
 .white {
-  color: #fff; }
+  color: #FFFFFF; }
 
 .homepage .page-content {
   background-color: #00658a; }
@@ -162,18 +208,20 @@ input {
   margin: 0;
   line-height: auto;
   background-color: #00658a;
-  padding: 20px 20px 10px;
-  font-size: 34px;
+  padding: 14px 20px 4px;
+  font-size: 30px;
   text-transform: none;
   font-weight: bold; }
 
 .ios .block {
   margin: 0; }
 
-.ios .button.button-fill, .ios .button.button-fill-ios {
+.ios .button.button-fill,
+.ios .button.button-fill-ios {
   margin-top: 30px; }
 
-.ios .button.button-fill, .ios .button.button-fill-ios {
+.ios .button.button-fill,
+.ios .button.button-fill-ios {
   background-color: #47abd1;
   text-transform: uppercase;
   margin-bottom: 4px; }
@@ -185,7 +233,8 @@ input {
   line-height: 27px;
   height: 29px; }
 
-.ios .button.button-active, .ios .button.tab-link-active {
+.ios .button.button-active,
+.ios .button.tab-link-active {
   background: #00658a;
   color: #fff; }
 
@@ -237,7 +286,8 @@ input {
 .segmented-button label:hover {
   color: #333333; }
 
-.segmented-button label:disabled, .segmented-button label.disabled {
+.segmented-button label:disabled,
+.segmented-button label.disabled {
   cursor: default;
   color: #b2b2b2;
   border-color: #cccccc; }

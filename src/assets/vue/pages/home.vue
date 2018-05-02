@@ -1,15 +1,15 @@
 <template>
     <f7-page class="homepage">
+
         <f7-navbar>
             <f7-nav-left>
-                <f7-link class="panel-open" open-panel="left" icon="fa fa-bars"></f7-link>
+                <f7-link class="panel-open" open-panel="left" icon="fa fa-cog"></f7-link>
             </f7-nav-left>
-            <div class="title">Drip Calculator</div>
-            <f7-nav-right>
-                <f7-link class="searchbar-enable" data-searchbar=".searchbar-components" icon="fa fa-search"></f7-link>
-            </f7-nav-right>
+            <div class="title"></div>
+            
             <f7-searchbar class="searchbar-components" search-container=".components-list" search-in="a" expandable></f7-searchbar>
         </f7-navbar>
+
         <f7-block-title class="centered">
             <svg x="0px" y="0px" width="239px" height="67px" viewBox="-124 351 239 67">
             <g>
